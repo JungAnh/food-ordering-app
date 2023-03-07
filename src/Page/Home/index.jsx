@@ -1,6 +1,12 @@
+import { Banner } from "../../Component/Banner";
+import { About } from "../../Component/About";
+
 const Home = () => {
   return (
-    <div className="text-white ">Home</div>
+    <>
+      <Banner />
+      <About />
+    </>
   )
 }
 
